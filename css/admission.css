@@ -1,0 +1,40 @@
+#menucol{
+    background-color: #212529;
+    color:antiquewhite;
+    height:40vh;
+    width:100vw;
+    display:none;
+    padding: 60px 15px 0;
+    text-align:left;
+}
+#menucol a{
+    color:antiquewhite;
+}
+*:placeholder-shown{
+    text-transform:capitalize
+}
+strong{
+    text-transform: capitalize;
+}
+body{
+    padding:1px;
+    text-align: center;
+}
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+main > .container {
+padding: 60px 15px 0;
+}
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+}
+main > .container {
+padding: 100px 15px 0;
+}
+}
